@@ -5,14 +5,14 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 // var passport = require('./strategies/userStrategy');
-// var session = require('express-session');
+var session = require('express-session');
 
 mongoose.set('debug', true)
 
 // var user = require('./routes/user');
 // var register = require('./routes/register');
-// var index = require('./routes/index');
-// // module
+var index = require('./routes/index');
+//  module
 // var games = require('./routes/games');
 
 // middleware
