@@ -3,10 +3,25 @@
   "version": "1.0.0",
   "description": "main webpage for portfolio",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongoose": "^4.6.3",
+    "path": "^0.12.7",
+    "pg": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahefnider/Personal_Website.git"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
   },
   "author": "Adam Hefnider",
   "license": "ISC"
