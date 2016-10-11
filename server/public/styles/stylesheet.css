@@ -1,4 +1,3 @@
-.gamesphereLink {
-  max-width: 20%;
-  min-width: 20%;
+.card > .image {
+  height: 400px;
 }
